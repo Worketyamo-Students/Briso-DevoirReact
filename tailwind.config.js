@@ -8,7 +8,8 @@ module.exports = {
       primary_color: '#952A2A',
       secondary_color: '',
       border_color: '',
-      nav_color : '#404040CC'
+      nav_color : '#404040CC',
+      bd_color : '#EEDDDD'
     },
     fontFamily:{
       'popins': ['Poppins', 'sans-serif'],

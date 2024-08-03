@@ -1,4 +1,8 @@
-import { buttonProps } from "./button"
+type buttonProps = {
+    name: string;
+    type: "submit" | "button";
+    value: string;
+};
 
 function Button2(props: buttonProps) {
     return (
@@ -6,7 +10,7 @@ function Button2(props: buttonProps) {
                 <button className="text-[2rem] text-center px-4 py-2 text-[white] bg-primary_color rounded-[0.5rem] w-[17rem] h-[6rem]"
                     type={props.type}
                 >
-                    Donate now</button>
+                    {props.value}</button>
 
             </div>
         
