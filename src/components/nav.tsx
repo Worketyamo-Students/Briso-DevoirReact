@@ -1,15 +1,15 @@
 import React from "react";
 
-function Nav(){
-    return(
-        <nav className="bg-[red]">
+function Nav() {
+    return (
+        <nav>
             <ul className="font-medium text-[1.8rem] flex gap-[4rem] text-nav_color">
-                <li>Home</li>
-                <li>About us</li>
-                <li>Institutions</li>
-                <li>Library</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>About us</li></a>
+                <a href=""><li>Institutions</li></a>
+                <a href="">  <li>Library</li></a>
+                <a href=""><li>Projects</li></a>
+                <a href=""><li>Contact</li></a>
             </ul>
         </nav>
     )
