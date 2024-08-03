@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "@/components/header";
+import Nav from "@/components/nav";
 
 const App = () => {
     return(
-        <div>
-        <h1>React course</h1>
+        <div className="w-screen h-screen bg-[orange]">
+        <Header />
         </div>
     )
 }
