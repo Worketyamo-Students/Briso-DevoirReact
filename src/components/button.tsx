@@ -1,6 +1,6 @@
-type buttonProps = {
+export type buttonProps = {
     name: string;
-    type: "submit" | "reset";
+    type: "submit" | "button";
 };
 
 function Button(props: buttonProps) {
@@ -17,7 +17,7 @@ function Button(props: buttonProps) {
                 <button className="text-[2rem] px-4 py-2 text-[white] bg-primary_color rounded-[0.5rem] w-[12rem] h-[4.8rem]"
                     type={props.type}
                 >
-                    Login</button>
+                    Register</button>
 
             </div>
         </div>
