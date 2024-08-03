@@ -10,6 +10,11 @@ module.exports = {
       border_color: '',
       nav_color : '#404040CC'
     },
+    fontFamily:{
+      'popins': ['Poppins', 'sans-serif'],
+      'open': ['Open', 'sans-serif'],
+      'source': ['Source', 'sans-serif-pro'],
+    },
     extend: {},
   },
   plugins: [],

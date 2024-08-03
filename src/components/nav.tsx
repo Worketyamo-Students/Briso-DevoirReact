@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
     return (
-        <nav>
+        <nav className="font-open">
             <ul className="font-medium text-[1.8rem] flex gap-[4rem] text-nav_color">
                 <a href=""><li>Home</li></a>
                 <a href=""><li>About us</li></a>
