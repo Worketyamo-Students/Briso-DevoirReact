@@ -6,7 +6,7 @@ consisting of designing a webpage of helping posponing children in needs.
 
 ## Screenshots
 
-![App Screenshot](./src/assets/children.svg)
+![App Screenshot](/public/webpage.svg)
 
 
 ## Tech Stack
