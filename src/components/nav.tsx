@@ -3,7 +3,7 @@ import Link from "./link"
 function Nav() {
     return (
         <nav className="font-open">
-            <ul className="font-medium text-[1.8rem] flex gap-[4rem] text-nav_color">
+            <ul className="font-medium text-[1.8rem] flex gap-[4rem]">
                 <Link href="" value="Home"/>
                 <Link href="" value="About us"/>
                 <Link href="" value="Institutions"/>

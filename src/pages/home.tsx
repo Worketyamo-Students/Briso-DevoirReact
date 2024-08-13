@@ -1,46 +1,41 @@
+import Sign from "@/components/sign";
 import Button from "@/components/button";
-import Button2 from "@/components/button2";
 import Nav from "@/components/nav";
+import Span from "@/components/span";
 import { CiSearch } from "react-icons/ci";
-import { TbUsers } from "react-icons/tb";
 import Background from "@/components/background";
+import Footerb from "@/components/footerb";
 
+// default running app
 const App = () => {
     return (
         <div className="w-screen h-screen ">
-            <header className="flex items-center justify-around font-source">
-                <h2 className="text-primary_color text-[4rem]">HelpemOUT</h2>
+            {/* header section */}
+            <header className="flex items-center justify-around font-source mt-[1.5rem]">
+                <h2 className="text-primary_color text-[4rem]">HelpemOÜT</h2>
                 <Nav />
                 <div className="flex justify-center items-center gap-[1.6rem]">
                     <div className="">
                         <CiSearch size={24}/>
                     </div>
-                    <Button name="login" type="submit" />
+                    <Sign name="login" type="submit" />
                 </div>
             </header>
-            <section className="flex items-center justify-center px-[8rem]">
-                <div className="flex flex-col items-center justify-center flex-1 gap-[2rem]">
-                    <h1 className="font-bold font-popins text-[6.5rem]">Help build a <span className="text-primary_color">Better</span>
-                        <span className="text-primary_color"> Society </span>for
-                        <span className="text-primary_color"> all</span></h1>
-                    <p className="text-[2.2rem]">Lorem ipsum dolor sit amet consectetur. Ac amet libero facilisis hendrerit pulvinar massa placerat. </p>
-                    <Button2 name="donation" type="button" value="Donate now"/>
+            {/* section part */}
+            <section className="bg-gradient-to-tr from-primary_color/5 to-transparent flex justify-center h-[73%] mx-[6rem] mt-6 rounded-[3rem]">
+                <div className="flex flex-col justify-center flex-1 gap-[2.5rem] px-[13rem]">
+                    <h1 className="font-bold font-popins text-[6.5rem]">Help build a 
+                        <Span value=" Better Society"/> for  
+                        <Span value=" All"/> 
+                        </h1>
+                    <p className="fon-normal text-[2.4rem]">Lorem ipsum dolor sit amet consectetur. Ac amet libero facilisis hendrerit pulvinar massa placerat. </p>
+                    <Button name="donation" type="button" value="Donate now"/>
                 </div>
                 <Background />
             </section>
-            <footer className="flex items-center justify-center text-[2rem]">
-                <div className="flex justify-center items-center gap-[1.5rem] border-[1rem] ">
-                   <TbUsers />
-                   <p className="text-primary_color">Orphans</p> 
-                </div>
-                <div className="flex justify-center items-center gap-[1.5rem] border-[1rem] border-bd_color">
-                <TbUsers />
-                <p className="text-primary_color">Poverty Relieved Childen</p> 
-                </div>
-                <div className="flex justify-center items-center gap-[1.5rem] border-[1rem] border-bd_color">
-                <TbUsers />
-                <p className="text-primary_color">Scholarship Based Students</p> 
-                </div>
+            {/* footer section */}
+            <footer className="mt-[3rem]">
+               <Footerb />
             </footer>
         </div>
     )

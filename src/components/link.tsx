@@ -2,9 +2,10 @@ interface Link{
     href:string,
     value : string
 }
+//component link using interface link
 function Link({href,value}:Link){
     return(
-        <a href={href}><li>{value}</li></a>
+        <a href={href}><li className="text-nav_color hover:underline hover:text-primary_color">{value}</li></a>
     )
 }
 

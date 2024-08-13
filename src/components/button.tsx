@@ -1,26 +1,19 @@
-type buttonProps = {
+export type Buttonprops = {
     name: string;
-    type: "submit" | "button"
+    type: "submit" | "button";
+    value: string;
 };
-
-function Button(props: buttonProps) {
+// component Button
+function Button(props: Buttonprops) {
     return (
-        <div className="flex items-center">
-            <div className="w-[55%] mx-auto  border-2">
-                <button className="font text-[2rem] px-4 py-2 text-[black] bg-[white] rounded-[0.5rem] w-[12rem] h-[4.8rem]"
+            <div className="w-full mx-auto border-2">
+                <button className="text-[2rem] text-center px-4 py-2 text-[white] bg-primary_color rounded-[0.5rem] w-[17rem] h-[6rem]"
                     type={props.type}
                 >
-                    Login</button>
+                    {props.value}</button>
 
             </div>
-            <div className="w-[55%] mx-auto  border-2">
-                <button className="text-[2rem] px-4 py-2 text-[white] bg-primary_color rounded-[0.5rem] w-[12rem] h-[4.8rem]"
-                    type={props.type}
-                >
-                    Register</button>
-
-            </div>
-        </div>
+        
     )
 }
 

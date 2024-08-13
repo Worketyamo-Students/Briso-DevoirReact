@@ -6,14 +6,14 @@ module.exports = {
   theme: {
     colors: {
       primary_color: '#952A2A',
-      secondary_color: '',
+      secondary_color: '#EEDDDD',
       border_color: '',
       nav_color : '#404040CC',
       bd_color : '#EEDDDD'
     },
     fontFamily:{
       'popins': ['Poppins', 'sans-serif'],
-      'open': ['Open', 'sans-serif'],
+      'open': ['Open sans', 'sans-serif'],
       'source': ['Source', 'sans-serif-pro'],
     },
     extend: {},
