@@ -15,7 +15,7 @@ const App = () => {
             <header className="flex items-center justify-around font-source mt-[1.5rem]">
                 <h2 className="text-primary_color text-[4rem]">HelpemOÜT</h2>
                 <Nav />
-                <div className="flex justify-center items-center gap-[1.6rem]">
+                <div className="flex justify-center items-center gap-[2rem]">
                     <div className="">
                         <CiSearch size={24} />
                     </div>

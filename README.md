@@ -1,5 +1,5 @@
 
-# Project 2
+# Project 2 : Designing a children website
 
 consisting of designing a webpage of helping posponing children in needs.
 
@@ -8,6 +8,14 @@ consisting of designing a webpage of helping posponing children in needs.
 
 ![App Screenshot](/public/webpage.svg)
 
+## Launching server
+```bash
+yarn dev
+```
+## webpage visualization
+```bash
+ http://localhost:5173/
+```
 
 ## Tech Stack
 
@@ -16,6 +24,6 @@ consisting of designing a webpage of helping posponing children in needs.
 **Server:** NodeJS
 
 
-## Authors
+## Author
 
 - [@Briso10-dev](https://github.com/Briso10-dev)
