@@ -30,7 +30,7 @@ const App = () => {
                         <Span value=" Better Society" /> for
                         <Span value=" All" />
                     </h1>
-                    <p className="fon-normal text-[2.4rem]">Lorem ipsum dolor sit amet consectetur. Ac amet libero facilisis hendrerit pulvinar massa placerat. </p>
+                    <p className="fon-normal text-[2.4rem]">Together let's contribute to the wear being of all those orphans out there with no means to take care of themselves </p>
                     <Button name="donation" type="button" value="Donate now" />
                 </div>
                 <Background />

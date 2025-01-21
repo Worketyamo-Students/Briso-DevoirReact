@@ -1,29 +1,89 @@
 
-# Project 2 : Designing a children website
+# @Project 15 : Designing a children website
 
-consisting of designing a webpage of helping posponing children in needs.
+## Overview
 
+Consisting of designing a webpage of helping posponing children in needs.
 
 ## Screenshots
 
 ![App Screenshot](/public/webpage.svg)
 
-## Launching server
+## Features
+
+- TypeScript for static typing and advanced code intelligence
+- React for single page effects with hooks facilities
+- ESLint and Prettier for code quality and formatting
+
+## Prerequisites
+
+- Node.js >= 20.12.0
+- Yarn >= 1.22.19
+
+## Getting Started
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/worketyamo/ts-starter.git
+cd ts-starter
+yarn install
+```
+
+### Execution in development mode
+
+To start the development server with automatic restarts on file changes, use:
+
 ```bash
 yarn dev
 ```
-## webpage visualization
+
+### Project Compilation
+
+To compile the project for production, use:
+
 ```bash
- http://localhost:5173/
+yarn build
 ```
 
-## Tech Stack
+### Starting of application
 
-**Client:** ReactJS
+To start the application after compilation, use:
 
-**Server:** NodeJS
+```bash
+yarn start
+```
 
+## Scripts
 
-## Author
+- **dev** : Starts the development server with ts-node-dev
+- **build** :  Cleans the dist folder and compiles TypeScript code
+- **start** : Runs the compiled JavaScript code from the dist folder
 
-- [@Briso10-dev](https://github.com/Briso10-dev)
+## Utilization
+
+Starting the Server
+To start the server, run the following command:
+
+```bash
+yarn start
+```
+The server will be launched on port: http://localhost:5173
+
+## License
+
+This exercice is licensed under WORKETYAMO.
+
+## Contributions
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## Autors
+
+- [@Kouam Brice](https://github.com/Briso10-dev)
+
+## Additional Informations
+
+For any questions or additional support, please contact the project maintainers.
