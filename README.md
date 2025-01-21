@@ -5,7 +5,7 @@
 
 Consisting of designing a webpage of helping posponing children in needs.
 
-## Screenshots
+## Screenshot
 
 ![App Screenshot](/public/webpage.svg)
 
@@ -70,7 +70,7 @@ To start the server, run the following command:
 ```bash
 yarn start
 ```
-The server will be launched on port: http://localhost:5173
+The server will be launched on port : http://localhost:5173
 
 ## License
 
@@ -80,10 +80,10 @@ This exercice is licensed under WORKETYAMO.
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## Autors
-
-- [@Kouam Brice](https://github.com/Briso10-dev)
-
 ## Additional Informations
 
 For any questions or additional support, please contact the project maintainers.
+
+## Autor
+
+- [@Kouam Brice](https://github.com/Briso10-dev)
